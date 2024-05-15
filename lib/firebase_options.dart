@@ -65,4 +65,5 @@ class DefaultFirebaseOptions {
     storageBucket: 'expensesmanager-8a948.appspot.com',
     iosBundleId: 'com.example.expensesManager',
   );
+
 }

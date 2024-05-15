@@ -35,6 +35,7 @@ class MainScreenState extends State<MainScreen> {
   final TextEditingController _textEditingController = TextEditingController();
 
   final DatabaseService _databaseService = DatabaseService();
+
   DateTime timeBackPressed = DateTime.now();
   var isDelivery = true;
   var isDay = true;
@@ -113,6 +114,7 @@ class MainScreenState extends State<MainScreen> {
         });
         viewModel.errorData.listen((event) {
           showError(context, event);
+          print(event);
         });
       }, builder: (BuildContext context, MainViewModel viewModel, Widget? child) {
         return Scaffold(

@@ -9,6 +9,7 @@ import 'package:expenses_manager/screen/main/kirim/kirimlar_screen.dart';
 import 'package:expenses_manager/screen/main/main_screen.dart';
 import 'package:expenses_manager/screen/pdf_screen/pdf_screen.dart';
 import 'package:expenses_manager/screen/report/report_screen.dart';
+import 'package:expenses_manager/screen/splash/splash_screen.dart';
 import 'package:expenses_manager/utils/pref_utils.dart';
 import 'package:expenses_manager/views/report_item_view.dart';
 import 'package:firebase_core/firebase_core.dart';

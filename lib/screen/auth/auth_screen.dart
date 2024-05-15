@@ -40,7 +40,9 @@ class AuthScreenState extends State<AuthScreen> {
       viewModel.loginEmployeeData.listen((event) {
         if (event != null) {
           if (event.password == _passwordController.text) {
+
             print('JW-PREFERENCE -> ${event.id}');
+
             PrefUtils.setEmployee(
                 SavedUserModel(
                 id: event.id,

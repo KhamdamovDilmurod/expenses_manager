@@ -123,7 +123,7 @@ class _YearPickerState extends State<_YearPicker> {
             Center(
               child: Text(
                 DateFormat.yMMM().format(_selectedDate),
-                style: theme.primaryTextTheme.subtitle1,
+                style: theme.primaryTextTheme.titleMedium,
               ),
             ),
             Row(
@@ -141,7 +141,7 @@ class _YearPickerState extends State<_YearPicker> {
                   ),
                 ),
                 DefaultTextStyle(
-                  style: theme.primaryTextTheme.headline5!,
+                  style: theme.primaryTextTheme.headlineMedium!,
                   child: (_isYearSelection)
                       ? Row(
                     mainAxisSize: MainAxisSize.min,
